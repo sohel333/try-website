@@ -1,0 +1,245 @@
+body{
+    font-family: 'Lobster', cursive;
+font-family: 'Poppins', sans-serif;
+}
+
+
+.header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 950px;
+    background-color: black;
+   margin-left: 30px;
+   border-radius: 5px;
+}
+.main {
+    margin-left: 22%;
+    color: white;
+}
+h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.btn {
+    height: 28px;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    border: 1px solid red;
+  margin-bottom: 35px;
+}
+.marselo {
+    padding-left: 55px;
+   
+}
+p{
+    font-size: 12px;
+}
+
+
+
+
+.btn-one {
+    margin-top: 20px;
+    color: white;
+    margin-left: 42px;
+    padding-top: 25px;
+}
+.btn-two {
+    margin-top: 20px;
+    color: white;
+    margin-left: 42px;
+    
+}
+.btn-2{
+    width: 115px;
+}
+.btn-three {
+    margin-top: 20px; 
+    color: white;
+    margin-left: 42px;
+    
+}
+.btn-3 {
+    width: 115px;
+}
+.btn-5 {
+    height: 28px;
+}
+
+
+.upcouming-card {
+    background-color: black;
+    width: 200px;
+    height: 165px;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+.card {
+    background-color: wheat;
+    width: 230px;
+    height: 315px;
+    margin-top: 20px;
+    border-radius: 5px;
+   
+}
+.card-100 {
+    margin-left: 18px;
+}
+.second-line {
+    margin-left: 248px;
+   display: flex;
+}
+.third-line {
+    margin-left: 248px;
+    display: flex; 
+}
+
+.Transfer {
+    margin-top: 15px;
+    padding-left: 10px;
+}
+.Transfer-Live{
+    padding-left: 10px;
+    font-size: 13px;
+   
+}
+
+.player-pic {
+    width: 230px;
+}
+.fa-message-dots {
+    padding-left: 25px;
+}
+.fa-clock-nine {
+    padding-left: 15px;
+} 
+
+
+.player-joy {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  
+}
+
+
+.footar {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 25px;
+   
+}
+.goal{
+    padding-top: 35px;
+}
+.foot {
+    margin-left: 35px;
+    color: white;
+}
+footer{
+    background-color: black;
+}
+h2{
+    text-align: center;
+    justify-content: center;
+    color: white;  
+}
+hr{
+    width: 70%;
+
+}
+.btn-1 {
+    border: 1px solid white;
+    height: 30px;
+    width: 116px;
+    border-radius: 5px; 
+}
+.btn-2 {
+    border: 1px solid white;
+    height: 30px;
+    border-radius: 5px;
+}
+.btn-3 {
+    background-color: red;
+    color: white;
+    height: 30px;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+@media only screen and (max-width: 480px) {
+  .header {
+    width: 100%;
+   display: grid;
+   grid-template-columns: repeat(1, 1fr);
+  align-items: center;
+  justify-content: center;
+
+  }
+.main {
+  text-align: center;
+margin-left: 0%;
+}
+.marselo {
+    padding-left: 60px;
+}
+.player-joy {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin-left: 38%;
+    width: 37%;
+}
+.upcouming-card {
+ background-color: white;
+ width: 50%;
+}
+.second-line {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+   justify-items: center;
+   margin-left: 131px;
+   width: 50%;
+}
+.card-100 {
+    margin-left: 1px;
+}
+.third-line {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    justify-items: center;
+    margin-left: 131px;
+    width: 50%;
+}
+footer {
+    width: 100%;
+    justify-content: center;
+    justify-items: center;
+}
+.footar {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    justify-items: center;
+}
+.goal {
+    text-align: center;
+    padding-left: 40px;
+}
+.btn-1 {
+width: 135px;
+
+}
+.btn-one {
+    margin-left: 32px;
+}
+
+
+
+  }
+  
+
+
